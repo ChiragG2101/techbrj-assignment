@@ -12,9 +12,9 @@
 
 - First Clone the repository or download it.
 - Open the directory and run the following command in the terminal:  
-   `npm install`
+   `yarn`
 - After installation, run the following in the terminal:  
-   `npm start`
+   `yarn dev`
 - The application is now hosted on: [localhost:5173](http://localhost:5173/) and can be seen in the browser
 
 ## ⚙️ Features Implemented

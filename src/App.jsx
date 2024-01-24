@@ -23,9 +23,7 @@ class App extends Component {
 
   componentDidMount() {
     axios
-      .get(
-        "https://brijfeedback.pythonanywhere.com/api/get-feedback-questions/?unitID=1"
-      )
+      .get(import.meta.env.VITE_API_URL)
       .then((response) => {
         const { feedbackQuestions, choices, companyLogo, unitName } =
           response.data;
