@@ -13,6 +13,8 @@
 - First Clone the repository or download it.
 - Open the directory and run the following command in the terminal:  
    `yarn`
+- Create .env file with the VITE_API_URL=https://brijfeedback.pythonanywhere.com/api/get-feedback-questions/?unitID=1
+
 - After installation, run the following in the terminal:  
    `yarn dev`
 - The application is now hosted on: [localhost:5173](http://localhost:5173/) and can be seen in the browser
